@@ -1,1 +1,112 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルページ</title>
+    <style>
+        /* リセットCSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>サンプルウェブサイト</h1>
+    <p>シンプルでモダンなHTMLとCSSのサンプル</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>私たちはWeb開発に情熱を持つ小さなチームです。最新の技術を使用して、ユーザーに最高の体験を提供することを目指しています。</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Webデザイン</li>
+            <li>フロントエンド開発</li>
+            <li>バックエンド開発</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>お問い合わせは<a href="mailto:info@example.com">info@example.com</a>まで。</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 サンプルウェブサイト. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
